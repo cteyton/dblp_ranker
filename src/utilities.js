@@ -1,5 +1,7 @@
 const levenshtein = require('js-levenshtein');
  
+let i = 0;
+
 module.exports.cleanTitle = cleanTitle;
 
 function cleanTitle(title) {
