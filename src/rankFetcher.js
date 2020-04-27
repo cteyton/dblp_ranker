@@ -3,6 +3,7 @@ const puppeteer = require('puppeteer');
 const levenshtein = require('js-levenshtein');
 const cleanTitle = require('./utilities').cleanTitle;
 
+
 module.exports.setCoreRank = setCoreRank;
 module.exports.setScimagoRank = setScimagoRank;
 
